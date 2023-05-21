@@ -12,6 +12,8 @@
 			<class name="LoginPageTestCases.ForgotPasswordLink"></class>
 			<class name="LoginPageTestCases.ImageAndTextDisplay"></class>
 			<class name="LoginPageTestCases.Login"></class>
+			<class name="MFAPageTestCases.BackToLogin"></class>
+			<class name="MFAPageTestCases.MfaLogin"></class>
 		</classes>
 	</test>
 </suite>
