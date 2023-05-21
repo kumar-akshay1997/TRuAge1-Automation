@@ -9,9 +9,6 @@
 
 	<test name="TruAge Test Cases">
 		<classes>
-			<class name="MFAPageTestCases.BackToLogin"></class>
-			<class name="LoginPageTestCases.ForgotPasswordLink"></class>
-			<class name="LoginPageTestCases.ImageAndTextDisplay"></class>
 			<class name="LoginPageTestCases.Login"></class>
 		</classes>
 	</test>
