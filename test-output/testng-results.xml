@@ -1,191 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-21T20:52:36 IST" name=" Main Application Test Automation Test Suite" finished-at="2023-05-21T20:54:12 IST" duration-ms="95691">
+  <suite started-at="2023-05-21T21:07:47 IST" name=" Main Application Test Automation Test Suite" finished-at="2023-05-21T21:09:21 IST" duration-ms="93461">
     <groups>
     </groups>
-    <test started-at="2023-05-21T20:52:36 IST" name="TruAge Test Cases" finished-at="2023-05-21T20:54:12 IST" duration-ms="95691">
+    <test started-at="2023-05-21T21:07:47 IST" name="TruAge Test Cases" finished-at="2023-05-21T21:09:21 IST" duration-ms="93461">
       <class name="LoginPageTestCases.ForgotPasswordLink">
-        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.ForgotPasswordLink@4082ba93]" started-at="2023-05-21T20:53:01 IST" name="setup" finished-at="2023-05-21T20:53:07 IST" duration-ms="5888" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.ForgotPasswordLink@4a003cbe]" started-at="2023-05-21T21:08:11 IST" name="setup" finished-at="2023-05-21T21:08:18 IST" duration-ms="6559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_forgot_password_link()[pri:0, instance:LoginPageTestCases.ForgotPasswordLink@4082ba93]" started-at="2023-05-21T20:53:07 IST" name="verify_forgot_password_link" finished-at="2023-05-21T20:53:11 IST" duration-ms="4152" status="PASS">
+        <test-method signature="verify_forgot_password_link()[pri:0, instance:LoginPageTestCases.ForgotPasswordLink@4a003cbe]" started-at="2023-05-21T21:08:18 IST" name="verify_forgot_password_link" finished-at="2023-05-21T21:08:22 IST" duration-ms="4136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_forgot_password_link -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.ForgotPasswordLink@4082ba93]" started-at="2023-05-21T20:53:11 IST" name="teardown" finished-at="2023-05-21T20:53:12 IST" duration-ms="1146" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.ForgotPasswordLink@4a003cbe]" started-at="2023-05-21T21:08:22 IST" name="teardown" finished-at="2023-05-21T21:08:24 IST" duration-ms="1357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- LoginPageTestCases.ForgotPasswordLink -->
       <class name="ForgotPasswordPageTestCases.ImageAndFieldDisplay">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ForgotPasswordPageTestCases.ImageAndFieldDisplay@4a003cbe]" started-at="2023-05-21T20:52:51 IST" name="setup" finished-at="2023-05-21T20:52:57 IST" duration-ms="6093" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ForgotPasswordPageTestCases.ImageAndFieldDisplay@76494737]" started-at="2023-05-21T21:08:00 IST" name="setup" finished-at="2023-05-21T21:08:07 IST" duration-ms="7510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_mfa_logo()[pri:1, instance:ForgotPasswordPageTestCases.ImageAndFieldDisplay@4a003cbe]" started-at="2023-05-21T20:52:57 IST" name="verify_mfa_logo" finished-at="2023-05-21T20:53:01 IST" duration-ms="4055" status="PASS">
+        <test-method signature="verify_mfa_logo()[pri:1, instance:ForgotPasswordPageTestCases.ImageAndFieldDisplay@76494737]" started-at="2023-05-21T21:08:07 IST" name="verify_mfa_logo" finished-at="2023-05-21T21:08:11 IST" duration-ms="4051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_mfa_logo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:ForgotPasswordPageTestCases.ImageAndFieldDisplay@4a003cbe]" started-at="2023-05-21T20:53:01 IST" name="teardown" finished-at="2023-05-21T20:53:01 IST" duration-ms="333" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ForgotPasswordPageTestCases.ImageAndFieldDisplay@76494737]" started-at="2023-05-21T21:08:11 IST" name="teardown" finished-at="2023-05-21T21:08:11 IST" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- ForgotPasswordPageTestCases.ImageAndFieldDisplay -->
       <class name="LoginPageTestCases.Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.Login@2b30a42c]" started-at="2023-05-21T20:53:36 IST" name="setup" finished-at="2023-05-21T20:53:42 IST" duration-ms="5679" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.Login@17fc391b]" started-at="2023-05-21T21:08:43 IST" name="setup" finished-at="2023-05-21T21:08:50 IST" duration-ms="6806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_valid_login()[pri:1, instance:LoginPageTestCases.Login@2b30a42c]" started-at="2023-05-21T20:53:42 IST" name="verify_valid_login" finished-at="2023-05-21T20:53:43 IST" duration-ms="402" status="PASS">
+        <test-method signature="verify_valid_login()[pri:1, instance:LoginPageTestCases.Login@17fc391b]" started-at="2023-05-21T21:08:50 IST" name="verify_valid_login" finished-at="2023-05-21T21:08:50 IST" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_valid_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.Login@2b30a42c]" started-at="2023-05-21T20:53:43 IST" name="teardown" finished-at="2023-05-21T20:53:43 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.Login@17fc391b]" started-at="2023-05-21T21:08:50 IST" name="teardown" finished-at="2023-05-21T21:08:50 IST" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.Login@2b30a42c]" started-at="2023-05-21T20:53:43 IST" name="setup" finished-at="2023-05-21T20:53:49 IST" duration-ms="5734" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.Login@17fc391b]" started-at="2023-05-21T21:08:50 IST" name="setup" finished-at="2023-05-21T21:08:56 IST" duration-ms="6065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_invalid_login()[pri:2, instance:LoginPageTestCases.Login@2b30a42c]" started-at="2023-05-21T20:53:49 IST" name="verify_invalid_login" finished-at="2023-05-21T20:53:53 IST" duration-ms="4408" status="PASS">
+        <test-method signature="verify_invalid_login()[pri:2, instance:LoginPageTestCases.Login@17fc391b]" started-at="2023-05-21T21:08:56 IST" name="verify_invalid_login" finished-at="2023-05-21T21:09:01 IST" duration-ms="4393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_invalid_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.Login@2b30a42c]" started-at="2023-05-21T20:53:53 IST" name="teardown" finished-at="2023-05-21T20:53:53 IST" duration-ms="391" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.Login@17fc391b]" started-at="2023-05-21T21:09:01 IST" name="teardown" finished-at="2023-05-21T21:09:02 IST" duration-ms="1186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.Login@2b30a42c]" started-at="2023-05-21T20:53:53 IST" name="setup" finished-at="2023-05-21T20:53:59 IST" duration-ms="5216" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.Login@17fc391b]" started-at="2023-05-21T21:09:02 IST" name="setup" finished-at="2023-05-21T21:09:08 IST" duration-ms="6028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_empty_login()[pri:3, instance:LoginPageTestCases.Login@2b30a42c]" started-at="2023-05-21T20:53:59 IST" name="verify_empty_login" finished-at="2023-05-21T20:53:59 IST" duration-ms="163" status="PASS">
+        <test-method signature="verify_empty_login()[pri:3, instance:LoginPageTestCases.Login@17fc391b]" started-at="2023-05-21T21:09:08 IST" name="verify_empty_login" finished-at="2023-05-21T21:09:08 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_empty_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.Login@2b30a42c]" started-at="2023-05-21T20:53:59 IST" name="teardown" finished-at="2023-05-21T20:53:59 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.Login@17fc391b]" started-at="2023-05-21T21:09:08 IST" name="teardown" finished-at="2023-05-21T21:09:08 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.Login@2b30a42c]" started-at="2023-05-21T20:53:59 IST" name="setup" finished-at="2023-05-21T20:54:06 IST" duration-ms="7482" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.Login@17fc391b]" started-at="2023-05-21T21:09:08 IST" name="setup" finished-at="2023-05-21T21:09:15 IST" duration-ms="6491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_magic_link_login()[pri:4, instance:LoginPageTestCases.Login@2b30a42c]" started-at="2023-05-21T20:54:06 IST" name="verify_magic_link_login" finished-at="2023-05-21T20:54:11 IST" duration-ms="4409" status="PASS">
+        <test-method signature="verify_magic_link_login()[pri:4, instance:LoginPageTestCases.Login@17fc391b]" started-at="2023-05-21T21:09:15 IST" name="verify_magic_link_login" finished-at="2023-05-21T21:09:19 IST" duration-ms="4441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_magic_link_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.Login@2b30a42c]" started-at="2023-05-21T20:54:11 IST" name="teardown" finished-at="2023-05-21T20:54:12 IST" duration-ms="1324" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.Login@17fc391b]" started-at="2023-05-21T21:09:19 IST" name="teardown" finished-at="2023-05-21T21:09:21 IST" duration-ms="1368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- LoginPageTestCases.Login -->
       <class name="LoginPageTestCases.ImageAndTextDisplay">
-        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@17fc391b]" started-at="2023-05-21T20:53:12 IST" name="setup" finished-at="2023-05-21T20:53:19 IST" duration-ms="6240" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@4082ba93]" started-at="2023-05-21T21:08:24 IST" name="setup" finished-at="2023-05-21T21:08:30 IST" duration-ms="6266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_page_title()[pri:1, instance:LoginPageTestCases.ImageAndTextDisplay@17fc391b]" started-at="2023-05-21T20:53:19 IST" name="verify_page_title" finished-at="2023-05-21T20:53:19 IST" duration-ms="30" status="PASS">
+        <test-method signature="verify_page_title()[pri:1, instance:LoginPageTestCases.ImageAndTextDisplay@4082ba93]" started-at="2023-05-21T21:08:30 IST" name="verify_page_title" finished-at="2023-05-21T21:08:30 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_page_title -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@17fc391b]" started-at="2023-05-21T20:53:19 IST" name="teardown" finished-at="2023-05-21T20:53:19 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@4082ba93]" started-at="2023-05-21T21:08:30 IST" name="teardown" finished-at="2023-05-21T21:08:30 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@17fc391b]" started-at="2023-05-21T20:53:19 IST" name="setup" finished-at="2023-05-21T20:53:25 IST" duration-ms="6227" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@4082ba93]" started-at="2023-05-21T21:08:30 IST" name="setup" finished-at="2023-05-21T21:08:36 IST" duration-ms="6274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_TruAge_Logo()[pri:2, instance:LoginPageTestCases.ImageAndTextDisplay@17fc391b]" started-at="2023-05-21T20:53:25 IST" name="verify_TruAge_Logo" finished-at="2023-05-21T20:53:25 IST" duration-ms="41" status="PASS">
+        <test-method signature="verify_TruAge_Logo()[pri:2, instance:LoginPageTestCases.ImageAndTextDisplay@4082ba93]" started-at="2023-05-21T21:08:36 IST" name="verify_TruAge_Logo" finished-at="2023-05-21T21:08:36 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_TruAge_Logo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@17fc391b]" started-at="2023-05-21T20:53:25 IST" name="teardown" finished-at="2023-05-21T20:53:25 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@4082ba93]" started-at="2023-05-21T21:08:36 IST" name="teardown" finished-at="2023-05-21T21:08:37 IST" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@17fc391b]" started-at="2023-05-21T20:53:25 IST" name="setup" finished-at="2023-05-21T20:53:31 IST" duration-ms="5636" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@4082ba93]" started-at="2023-05-21T21:08:37 IST" name="setup" finished-at="2023-05-21T21:08:43 IST" duration-ms="6079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_check_box()[pri:3, instance:LoginPageTestCases.ImageAndTextDisplay@17fc391b]" started-at="2023-05-21T20:53:31 IST" name="verify_check_box" finished-at="2023-05-21T20:53:31 IST" duration-ms="65" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at LoginPageTestCases.ImageAndTextDisplay.verify_check_box(ImageAndTextDisplay.java:42)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_check_box -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@17fc391b]" started-at="2023-05-21T20:53:31 IST" name="teardown" finished-at="2023-05-21T20:53:31 IST" duration-ms="242" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@17fc391b]" started-at="2023-05-21T20:53:31 IST" name="setup" finished-at="2023-05-21T20:53:36 IST" duration-ms="5194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_forgot_password_link()[pri:4, instance:LoginPageTestCases.ImageAndTextDisplay@17fc391b]" started-at="2023-05-21T20:53:36 IST" name="verify_forgot_password_link" finished-at="2023-05-21T20:53:36 IST" duration-ms="39" status="PASS">
+        <test-method signature="verify_forgot_password_link()[pri:4, instance:LoginPageTestCases.ImageAndTextDisplay@4082ba93]" started-at="2023-05-21T21:08:43 IST" name="verify_forgot_password_link" finished-at="2023-05-21T21:08:43 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_forgot_password_link -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@17fc391b]" started-at="2023-05-21T20:53:36 IST" name="teardown" finished-at="2023-05-21T20:53:36 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:LoginPageTestCases.ImageAndTextDisplay@4082ba93]" started-at="2023-05-21T21:08:43 IST" name="teardown" finished-at="2023-05-21T21:08:43 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- LoginPageTestCases.ImageAndTextDisplay -->
       <class name="ForgotPasswordPageTestCases.ForgotPasswordLinkSendTestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ForgotPasswordPageTestCases.ForgotPasswordLinkSendTestCase@cb0755b]" started-at="2023-05-21T20:52:36 IST" name="setup" finished-at="2023-05-21T20:52:45 IST" duration-ms="8094" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ForgotPasswordPageTestCases.ForgotPasswordLinkSendTestCase@53fb3dab]" started-at="2023-05-21T21:07:47 IST" name="setup" finished-at="2023-05-21T21:07:54 IST" duration-ms="7026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_forgot_password_link()[pri:1, instance:ForgotPasswordPageTestCases.ForgotPasswordLinkSendTestCase@cb0755b]" started-at="2023-05-21T20:52:45 IST" name="verify_forgot_password_link" finished-at="2023-05-21T20:52:50 IST" duration-ms="5285" status="PASS">
+        <test-method signature="verify_forgot_password_link()[pri:1, instance:ForgotPasswordPageTestCases.ForgotPasswordLinkSendTestCase@53fb3dab]" started-at="2023-05-21T21:07:54 IST" name="verify_forgot_password_link" finished-at="2023-05-21T21:07:59 IST" duration-ms="5301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_forgot_password_link -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:ForgotPasswordPageTestCases.ForgotPasswordLinkSendTestCase@cb0755b]" started-at="2023-05-21T20:52:50 IST" name="teardown" finished-at="2023-05-21T20:52:51 IST" duration-ms="708" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ForgotPasswordPageTestCases.ForgotPasswordLinkSendTestCase@53fb3dab]" started-at="2023-05-21T21:07:59 IST" name="teardown" finished-at="2023-05-21T21:08:00 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
