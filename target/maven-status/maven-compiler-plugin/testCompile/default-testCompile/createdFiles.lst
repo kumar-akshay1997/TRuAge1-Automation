@@ -1,0 +1,7 @@
+MFAPageTestCases\MfaLogin.class
+LoginPageTestCases\Login.class
+MFAPageTestCases\BackToLogin.class
+LoginPageTestCases\ForgotPasswordLink.class
+LoginPageTestCases\ImageAndTextDisplay.class
+ForgotPasswordPageTestCases\ForgotPasswordLinkSendTestCase.class
+ForgotPasswordPageTestCases\ImageAndFieldDisplay.class

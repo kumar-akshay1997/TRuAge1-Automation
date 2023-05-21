@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Main Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.truage.qa.ExtentReportListener.ExtentReport" />
+	</listeners>
+
+
+	<test name="TruAge Test Cases">
+		<classes>
+			<class name="MFAPageTestCases.BackToLogin"></class>
+		</classes>
+	</test>
+</suite>

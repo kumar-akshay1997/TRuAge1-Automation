@@ -1,0 +1,8 @@
+com\truage\qa\util\WebEventListener.class
+com\truage\qa\ExtentReportListener\ExtentReport.class
+com\truage\qa\commonmethods\TestBase.class
+com\truage\qa\pages\mfa_Page.class
+com\truage\qa\pages\login_Page.class
+com\truage\qa\pages\press_releases_Page.class
+com\truage\qa\util\TestUtil.class
+com\truage\qa\pages\forgot_password_Page.class
