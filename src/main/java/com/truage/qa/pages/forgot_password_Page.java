@@ -52,7 +52,7 @@ public class forgot_password_Page extends TestBase {
 	
 	public login_Page validate_forgot_password_link_send(String email_address) {
 		try {
-			Thread.sleep(4000);
+			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

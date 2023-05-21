@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="TruAge Test Cases(failed)">
     <classes>
-      <class name="MFAPageTestCases.BackToLogin">
+      <class name="LoginPageTestCases.ImageAndTextDisplay">
         <methods>
-          <include name="teardown"/>
-          <include name="varify_back_to_login_link"/>
           <include name="setup"/>
+          <include name="verify_check_box"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- MFAPageTestCases.BackToLogin -->
+      </class> <!-- LoginPageTestCases.ImageAndTextDisplay -->
     </classes>
   </test> <!-- TruAge Test Cases(failed) -->
 </suite> <!-- Failed suite [ Main Application Test Automation Test Suite] -->

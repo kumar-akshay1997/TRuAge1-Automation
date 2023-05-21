@@ -3,12 +3,14 @@
 <suite name=" Main Application Test Automation Test Suite">
 
 	<listeners>
-		<listener class-name="com.truage.qa.ExtentReportListener.ExtentReport" />
+		<listener class-name="com.truage.qa.ExtentReportListener.ExtentReport"></listener>
 	</listeners>
-
-
 	<test name="TruAge Test Cases">
 		<classes>
+			<class name="ForgotPasswordPageTestCases.ForgotPasswordLinkSendTestCase"></class>
+			<class name="ForgotPasswordPageTestCases.ImageAndFieldDisplay"></class>
+			<class name="LoginPageTestCases.ForgotPasswordLink"></class>
+			<class name="LoginPageTestCases.ImageAndTextDisplay"></class>
 			<class name="LoginPageTestCases.Login"></class>
 		</classes>
 	</test>
