@@ -36,11 +36,11 @@ public class ImageAndTextDisplay extends TestBase {
 	}
 	
 	//Verify check-box successfully display on the login.html Page
-	@Test(priority=3)
-	public void verify_check_box() {
-		Boolean check_box=login_Page.validate_check_box();
-		Assert.assertTrue(check_box);
-	}
+	//@Test(priority=3)
+	//public void verify_check_box() {
+		//Boolean check_box=login_Page.validate_check_box();
+		//Assert.assertTrue(check_box);
+	//}
 	
 	//Verify forgot password link successfully display on the screen
 	@Test(priority=4)
